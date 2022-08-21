@@ -1,0 +1,94 @@
+:root{
+    /* Fonts */
+
+    /* Text color */
+    --main-txt-cl:#212121;
+    /* Background colors */
+
+    /* Other */
+   
+
+}
+.page{
+    color: #212121;
+}
+.logo{
+color: #2196F3;
+text-decoration: none;
+}
+.logo-link{
+    color: #000000;
+    text-decoration: none;
+}
+
+.link{
+    color:#212121;
+    text-decoration: none; 
+}
+.link-item{
+    color: #2196F3;
+    text-decoration: none;
+}
+.link-mail{
+    color: #2196F3;
+    text-decoration: none;
+}
+.link-tel{
+    color: #757575;
+    text-decoration: none;
+}
+.section-tittle{
+    color: #FFFFFF;
+    background-color: #2F303A;
+    text-align: center;
+}
+.btn{
+    color: #FFFFFF;
+background-color: #2196F3;
+}
+.list{
+}
+.text-list{
+    color: #757575;
+}
+.list-item{
+    
+}
+.list-peculiarities{
+
+}
+.list-item-peculiarities{
+
+}
+.section-activity{
+
+}
+.tittle-subtittle{
+    color: #212121;
+}
+.subtittle{
+    color: #757575;
+}
+
+.tittle-subject{
+color: #212121;
+}
+.tittle-subject-list{
+    color:#212121;
+}
+.footer{
+    background-color: #2F303A;
+    text-align: left;
+    
+}
+.link-footer{
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+.address{
+    
+}
+.list-address{
+color:#2F303A ;
+}

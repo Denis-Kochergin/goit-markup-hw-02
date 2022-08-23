@@ -3,7 +3,7 @@
 
     /* Text color */
     --primary-text-color:#212121;
-    --tittle0-text-color:#212121;
+    --tittle-text-color:#212121;
     --accent-color:#2196F3;
     --primary-white-color:#FFFFFF;
     --second-text-color:#757575;
@@ -11,6 +11,7 @@
     /* Background colors */
 --background-color: #F5F5F5;
 --footer-background-color: #2F303A;
+--background-color-portfolio:#F5F5F5;
 
 
 }
@@ -52,7 +53,7 @@ text-decoration: none;
     text-decoration: none;
 }
 .link{
-    color: var(--tittle0-text-color);
+    color: var(--tittle-text-color);
  text-decoration: none;   
 }
 /* Hero */
@@ -68,7 +69,8 @@ text-transform: uppercase;
 .btn{
     color: var(--primary-white-color);
     background-color: var(--accent-color);
-    font-family:Roboto;
+    cursor: pointer;
+font-family:Roboto;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
@@ -78,15 +80,67 @@ text-align: center;
 }
 .text-list{
     color: var(--second-text-color);
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+}
+.list-item-about{
+color: var(--tittle-text-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+}
+.subtitle{
+    color: var(--second-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    
 }
 .footer{
     color: var(--primary-white-color);
     background-color:var(--footer-background-color);
+    
 }
 .span{
     color: var(--primary-white-color);
 }
 .link-footer{
+    color: #FFFFFF99;
+    text-decoration: none;
+}
+.link-maps{
     color: var(--primary-white-color);
     text-decoration: none;
+}
+
+.tittle-subject{
+    color: var(--primary-text-color);
+    
+font-weight: 700;
+font-size: 36px;
+line-height:1.16;
+text-align: center;
+}
+
+/* Portfolio */
+.tittle-project{
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height:1.16;
+    text-align: center;
+}
+.tittle-portfolio{
+color: var(--tittle-text-color);
+
+font-size: 18px;
+line-height: 2;
+}
+.text-work{
+color: var(--second-text-color);
+
+font-size: 16px;
+line-height: 1.87;
 }
